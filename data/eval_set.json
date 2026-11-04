@@ -1,0 +1,216 @@
+{
+  "taxonomy": [
+    {
+      "id": "workload",
+      "title": "Workload and capacity",
+      "description": "Volume of work, deadlines, after-hours effort and team capacity."
+    },
+    {
+      "id": "tooling",
+      "title": "Tools and developer environment",
+      "description": "Build speed, environments, laptops and access to useful tools including AI assistants."
+    },
+    {
+      "id": "leadership",
+      "title": "Leadership communication and priorities",
+      "description": "Clarity of direction, how priorities are set and how decisions are communicated."
+    },
+    {
+      "id": "recognition",
+      "title": "Recognition and feeling valued",
+      "description": "Whether effort is noticed, thanked and credited."
+    },
+    {
+      "id": "flexibility",
+      "title": "Flexible and hybrid work",
+      "description": "Working from home, office days, commuting and flexibility."
+    },
+    {
+      "id": "change_control",
+      "title": "Release and change-control process",
+      "description": "Release approvals, change paperwork and process overhead."
+    }
+  ],
+  "items": [
+    {
+      "id": "EV-01",
+      "text": "Workload has been crushing, overtime most nights to meet the deadline.",
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-02",
+      "text": "Capacity is fine this sprint, good to have breathing room.",
+      "theme": "workload",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-03",
+      "text": "We keep getting weekend work requests and the team is tired.",
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-04",
+      "text": "Deadline was tight but the team handled it well, good effort.",
+      "theme": "workload",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-05",
+      "text": "Too much work and not enough people.",
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-06",
+      "text": "Local environment takes forever to start, the build tooling is slow.",
+      "theme": "tooling",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-07",
+      "text": "The new AI coding tool is really helpful for writing tests.",
+      "theme": "tooling",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-08",
+      "text": "VPN drops several times a day and blocks my work.",
+      "theme": "tooling",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-09",
+      "text": "Happy with the new laptop, builds are much better now.",
+      "theme": "tooling",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-10",
+      "text": "Pipeline failures with no logs are frustrating.",
+      "theme": "tooling",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-11",
+      "text": "Priorities from leadership are unclear and change constantly.",
+      "theme": "leadership",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-12",
+      "text": "The town hall explained the strategy well, good to hear the direction.",
+      "theme": "leadership",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-13",
+      "text": "Decisions get made without communicating them to us.",
+      "theme": "leadership",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-14",
+      "text": "My manager communicates priorities clearly, it is helpful.",
+      "theme": "leadership",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-15",
+      "text": "Nobody explains why the direction changed.",
+      "theme": "leadership",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-16",
+      "text": "Thank you to the team for the shout-out, I felt appreciated.",
+      "theme": "recognition",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-17",
+      "text": "Our work on the launch was never recognised.",
+      "theme": "recognition",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-18",
+      "text": "Credit for the migration went to another team, frustrating.",
+      "theme": "recognition",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-19",
+      "text": "Leadership thanked us publicly, felt valued.",
+      "theme": "recognition",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-20",
+      "text": "Nice to be appreciated for the late fix.",
+      "theme": "recognition",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-21",
+      "text": "Working from home two days is great for me.",
+      "theme": "flexibility",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-22",
+      "text": "The commute on office days is hard and tiring.",
+      "theme": "flexibility",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-23",
+      "text": "Flexible hours make it easier to manage school pickup, thank you.",
+      "theme": "flexibility",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-24",
+      "text": "Hybrid rules are confusing and keep changing.",
+      "theme": "flexibility",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-25",
+      "text": "Remote days help me focus, I enjoy them.",
+      "theme": "flexibility",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-26",
+      "text": "Change record paperwork is a waste of time for small fixes.",
+      "theme": "change_control",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-27",
+      "text": "The release approval process was smooth this time, good job.",
+      "theme": "change_control",
+      "sentiment": "positive"
+    },
+    {
+      "id": "EV-28",
+      "text": "CAB approval delays are frustrating.",
+      "theme": "change_control",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-29",
+      "text": "Change window booking is confusing.",
+      "theme": "change_control",
+      "sentiment": "negative"
+    },
+    {
+      "id": "EV-30",
+      "text": "The new release checklist made the process better.",
+      "theme": "change_control",
+      "sentiment": "positive"
+    }
+  ]
+}

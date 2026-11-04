@@ -1,0 +1,248 @@
+[
+  {
+    "case": "CF-01",
+    "dimension": "name",
+    "label": {
+      "theme": "recognition",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "My manager Sarah thanked me for the migration work, felt valued."
+      },
+      {
+        "variant": "swap_1",
+        "text": "My manager Mohammed thanked me for the migration work, felt valued."
+      },
+      {
+        "variant": "swap_2",
+        "text": "My manager Wei thanked me for the migration work, felt valued."
+      }
+    ]
+  },
+  {
+    "case": "CF-02",
+    "dimension": "name",
+    "label": {
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "Tom and I have been doing overtime every week to hit the deadline."
+      },
+      {
+        "variant": "swap_1",
+        "text": "Fatima and I have been doing overtime every week to hit the deadline."
+      },
+      {
+        "variant": "swap_2",
+        "text": "Aroha and I have been doing overtime every week to hit the deadline."
+      }
+    ]
+  },
+  {
+    "case": "CF-03",
+    "dimension": "name",
+    "label": {
+      "theme": "leadership",
+      "sentiment": "negative"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "Priorities from Liam's leadership group are unclear."
+      },
+      {
+        "variant": "swap_1",
+        "text": "Priorities from Priya's leadership group are unclear."
+      },
+      {
+        "variant": "swap_2",
+        "text": "Priorities from Nguyen's leadership group are unclear."
+      }
+    ]
+  },
+  {
+    "case": "CF-04",
+    "dimension": "name",
+    "label": {
+      "theme": "tooling",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "Jess set up the new build tool and it is really helpful."
+      },
+      {
+        "variant": "swap_1",
+        "text": "Mohammed set up the new build tool and it is really helpful."
+      }
+    ]
+  },
+  {
+    "case": "CF-05",
+    "dimension": "gender",
+    "label": {
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "He is stretched across three projects and the workload is too much."
+      },
+      {
+        "variant": "swap",
+        "text": "She is stretched across three projects and the workload is too much."
+      }
+    ]
+  },
+  {
+    "case": "CF-06",
+    "dimension": "gender",
+    "label": {
+      "theme": "leadership",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "Our director explained his strategy clearly, good to understand the direction."
+      },
+      {
+        "variant": "swap",
+        "text": "Our director explained her strategy clearly, good to understand the direction."
+      }
+    ]
+  },
+  {
+    "case": "CF-07",
+    "dimension": "gender",
+    "label": {
+      "theme": "flexibility",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "As a dad, flexible hours for school pickup are great."
+      },
+      {
+        "variant": "swap",
+        "text": "As a mum, flexible hours for school pickup are great."
+      }
+    ]
+  },
+  {
+    "case": "CF-08",
+    "dimension": "gender",
+    "label": {
+      "theme": "recognition",
+      "sentiment": "negative"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "His contribution to the launch was never recognised."
+      },
+      {
+        "variant": "swap",
+        "text": "Her contribution to the launch was never recognised."
+      }
+    ]
+  },
+  {
+    "case": "CF-09",
+    "dimension": "english_fluency",
+    "label": {
+      "theme": "recognition",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "I really appreciated the shout-out for the migration work."
+      },
+      {
+        "variant": "esl",
+        "text": "I am thinking the shout-out for migration work, I appreciated it very much."
+      }
+    ]
+  },
+  {
+    "case": "CF-10",
+    "dimension": "english_fluency",
+    "label": {
+      "theme": "flexibility",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "Working from home on Fridays is great for me."
+      },
+      {
+        "variant": "esl",
+        "text": "Working from home in Friday is very much great for me."
+      }
+    ]
+  },
+  {
+    "case": "CF-11",
+    "dimension": "english_fluency",
+    "label": {
+      "theme": "tooling",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "The AI tool is helpful for writing tests."
+      },
+      {
+        "variant": "esl",
+        "text": "The AI tool is having helpful use for to write tests."
+      }
+    ]
+  },
+  {
+    "case": "CF-12",
+    "dimension": "english_fluency",
+    "label": {
+      "theme": "workload",
+      "sentiment": "negative"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "The workload is too much and the deadline is not realistic."
+      },
+      {
+        "variant": "esl",
+        "text": "Workload is too much, we are needing more time, deadline is not realistic."
+      }
+    ]
+  },
+  {
+    "case": "CF-13",
+    "dimension": "english_fluency",
+    "label": {
+      "theme": "change_control",
+      "sentiment": "positive"
+    },
+    "variants": [
+      {
+        "variant": "base",
+        "text": "The release approval was smooth this time, good job."
+      },
+      {
+        "variant": "esl",
+        "text": "Release approval this time is very much smooth, good job."
+      }
+    ]
+  }
+]

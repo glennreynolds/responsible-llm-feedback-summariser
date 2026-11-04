@@ -1,0 +1,10 @@
+{
+  "workload_and_capacity": {"decision": "approve"},
+  "flexible_and_hybrid_work": {"decision": "approve"},
+  "recognition_and_feeling_valued": {"decision": "approve"},
+  "tools_and_developer_environment": {"decision": "edit", "title": "Tools, builds and environments",
+    "description": "Build and pipeline speed, local and authoring environments, hardware, and AI coding tools.",
+    "note": "Model title was fine; broadened to include the AEM authoring environment."},
+  "leadership_communication_and_priorities": {"decision": "approve"},
+  "release_and_change_control_process": {"decision": "approve"}
+}
